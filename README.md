@@ -7,7 +7,7 @@
 > Foremost, this project is vibe coded, but only on SQL statements and UI design.
 (I'm not spending a hundred hours on SQL and design philosophy)
 
-Currently only supports Windows, and will not support MacOS/Linux (too lazy)
+Currently only supports Windows, and will not support MacOS/Linux unless someone else wants to port it (sucks to you)
 
 This is my first Rust project, so please criticize me for unsafe code or time-staking processes.
 
