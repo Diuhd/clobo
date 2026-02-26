@@ -1,7 +1,21 @@
-# Tauri + SvelteKit + TypeScript
+# Clobo
 
-This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
+(Probably) The next generation AI toolkit. <s>Another AI wrapper</s>
 
-## Recommended IDE Setup
+> Foremost, this project is vibe coded, but only on SQL statements and UI design.
+(I'm not spending a hundred hours on SQL and design philosophy)
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+Currently only supports Windows, and will not support MacOS/Linux (too lazy)
+
+This is my first Rust project, so please criticize me for unsafe code or time-staking processes.
+
+*This project is in working progress. It only has a few features now, but more will be added on "soon".*
+
+### Current Project Roadmap
+
+1. Highlight words in ANY app and utilize it by AI
+2. Send clipboard items to AI and get responses directly
+3. Dedicated file pinner and access
+4. Integration of local agents
+
+If you like my project or just feel lucky, consider leaving a star on this repository!
