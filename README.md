@@ -13,11 +13,15 @@ This is my first Rust project, so please criticize me for unsafe code or time-st
 
 *This project is in working progress. It only has a few features now, but more will be added on "soon".*
 
-### Current Project Roadmap
+### Project Roadmap
 
 1. Highlight words in ANY app and utilize it by AI
 2. Send clipboard items to AI and get responses directly
 3. Dedicated file pinner and access
 4. Integration of local agents
+
+### Current Features
+
+1. Static clipboard (data is saved in a sqlite3 database, and will be preserved even after restart)
 
 If you like my project or just feel lucky, consider leaving a star on this repository!
