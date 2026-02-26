@@ -1,6 +1,6 @@
 # Clobo
 
-[![한국어(Korean)](https://github.com/Diuhd/clobo/blob/master/README-korean.md)](#readme)
+![한국어(Korean)](https://github.com/Diuhd/clobo/blob/master/README-korean.md)
 
 (Probably) The next generation AI toolkit. <s>Another AI wrapper</s>
 
