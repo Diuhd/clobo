@@ -1,5 +1,7 @@
 # Clobo
 
+[![한국어(Korean)](https://github.com/Diuhd/clobo/blob/master/README-korean.md)](#readme)
+
 (Probably) The next generation AI toolkit. <s>Another AI wrapper</s>
 
 > Foremost, this project is vibe coded, but only on SQL statements and UI design.
