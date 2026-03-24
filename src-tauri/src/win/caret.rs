@@ -219,22 +219,12 @@ unsafe fn get_caret_uia() -> Option<RECT> {
 /// applications that draw their own caret.  The returned rectangle is
 /// converted from client coordinates to screen coordinates.
 unsafe fn get_caret_guithreadinfo() -> Option<RECT> {
-    let hwnd = GetForegroundWindow();
-    if hwnd.0.is_null() {
-        return None;
-    }
-
-    let thread_id = GetWindowThreadProcessId(hwnd, None);
-    if thread_id == 0 {
-        return None;
-    }
-
     let mut gui_info: GUITHREADINFO = GUITHREADINFO {
         cbSize: size_of::<GUITHREADINFO>() as u32,
         ..Default::default()
     };
 
-    if GetGUIThreadInfo(thread_id, &mut gui_info).is_err() || gui_info.hwndCaret.0.is_null() {
+    if GetGUIThreadInfo(0, &mut gui_info).is_err() || gui_info.hwndCaret.0.is_null() {
         return None;
     }
 
